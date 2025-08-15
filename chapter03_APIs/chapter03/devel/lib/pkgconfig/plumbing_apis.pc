@@ -1,0 +1,8 @@
+prefix=/home/wbb/chapter03/devel
+
+Name: plumbing_apis
+Description: Description of plumbing_apis
+Version: 0.0.0
+Cflags: -I/home/wbb/chapter03/devel/include
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs message_runtime
