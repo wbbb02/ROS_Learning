@@ -1,0 +1,8 @@
+prefix=/home/wbb/chapter03/install
+
+Name: import_test
+Description: Description of import_test
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs message_runtime
