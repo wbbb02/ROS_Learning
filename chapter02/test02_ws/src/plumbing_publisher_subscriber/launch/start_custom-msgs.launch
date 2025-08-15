@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="plumbing_publisher_subscriber" type="pub03_custom_msg.py" name="pub03_custom_msg" output="screen"/>
+    <node pkg="plumbing_publisher_subscriber" type="sub03_custom_msg.py" name="sub03_custom_msg" output="screen"/>
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="plumbing_publisher_subscriber" type="pub02.py" name="pub02" output="screen"/>
+    <node pkg="plumbing_publisher_subscriber" type="sub02.py" name="sub02" output="screen"/>
+</launch>

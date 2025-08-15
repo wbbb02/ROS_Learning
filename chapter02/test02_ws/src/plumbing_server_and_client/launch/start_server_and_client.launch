@@ -1,0 +1,6 @@
+<launch>
+  <!-- 定义局部参数（可通过命令行覆盖） -->
+  <!-- default: 默认值；value: 固定值（无法被命令行覆盖） -->
+    <node pkg="plumbing_server_and_client" type="server01.py" name="server01" output="screen"/>
+    <node pkg="plumbing_server_and_client" type="client01.py" name="client01" output="screen"/>
+</launch>

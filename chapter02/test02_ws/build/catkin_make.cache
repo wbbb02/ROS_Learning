@@ -1,0 +1,2 @@
+plumbing_param:plumbing_publisher_subscriber:plumbing_server_and_client
+-DCATKIN_DEVEL_PREFIX=/home/wbb/test02_ws/devel -DCMAKE_INSTALL_PREFIX=/home/wbb/test02_ws/install -G Unix Makefiles
