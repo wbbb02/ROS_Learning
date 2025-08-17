@@ -1,16 +1,23 @@
-# 4.2 launch文件
-## 4.2.1 launch标签--launch
-- <launch>标签是所有 launch 文件的根标签，充当其他标签的容器
-### 1. 属性
-- deprecated = "弃用声明"
+# launch标签
+[0201](./Chapt0402_launch/Chapt040201_launch.md)
 
-- 告知用户当前 launch 文件已经弃用
+# node标签
+[0202](./Chapt0402_launch/Chapt040202_node.md)
 
-```
-    <launch deprecated="此文件已经过时">
-        <node pkg="turtlesim" type="turtlesim_node" name="my_turtle" output="screen"/>
-        <node pkg="turtlesim" type="turtle_teleop_key" name="key_control" output="screen"/>
-    </launch>
-```
-### 2. 子级标签
-- 所有标签都是launch的子标签
+# include标签
+[0203](./Chapt0402_launch/Chapt040203_include.md)
+
+# remap标签
+[0204](./Chapt0402_launch/Chapt040204_remap.md)
+
+# param标签
+[0205](./Chapt0402_launch/Chapt040205_param.md)
+
+# rosparam标签
+[0206](./Chapt0402_launch/Chapt040206_rosparam.md)
+
+# group标签
+[0207](./Chapt0402_launch/Chapt040207_group.md)
+
+# arg标签
+[0208](./Chapt0402_launch/Chapt040208_arg.md)
